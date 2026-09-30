@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const f=document.getElementById('contactForm');if(f)f.addEventListener('submit',e=>{e.preventDefault();document.getElementById('formMsg').textContent='Thank you. Please email support@headservices.online to complete your inquiry.';});});
